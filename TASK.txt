@@ -1,0 +1,6 @@
+[ROLE: BUILDER]
+
+You are the BUILDER role. Your job is to implement ALL features in SPEC.md and push working code to GitHub. Write PROPOSAL.md and COVER_LETTER.txt to /home/deploy/.hermes/proposals/ only (NOT the worker dir). IMPORTANT: Before running 'git add -A', create a .gitignore that excludes PROPOSAL.md and COVER_LETTER.txt from the repo. Upload PROPOSAL.md and COVER_LETTER.txt to MinIO. Mark the BUILD issue done in Multica.
+
+--- JOB SPEC ---
+Healthcare EHR data extraction and CCL scripting for HHSC Electronic Health Record migration
