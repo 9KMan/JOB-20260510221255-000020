@@ -16,7 +16,15 @@ ENV/
 *.swp
 *.swo
 *~
-.PROPOSAL.md
-.COVER_LETTER.txt
+.proposal/
+.proposal.md
+.cover_letter.txt
 proposal_*
 cover_letter_*
+
+# Worker-internal files - NEVER push to GitHub
+SPEC.txt
+TASK.txt
+pid
+role
+worker.log
